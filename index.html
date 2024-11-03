@@ -30,18 +30,21 @@
         <li>Dogs</li>
         <li>People (sometimes)</li>
     </ol>
-    <p><b>Where is a cat live?</b></p>
-<form>
-    <label for="indoor">
-        <input id="indoor" type="radio" name="indoor-outdoor">Indoor
-    </label>
-    <label for="outdoor">
-        <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
-    </label>
-    </form>
-    <p><b>How is a cat feeling?</b></p>
+   <div><p><b>Where is a cat live?</b></p>
     <form>
-        <label for="loving">
+        <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor
+        </label>
+        <label for="outdoor">
+            <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+        </label>
+        </form>
+    </div> 
+    
+    <div>
+        <p><b>How is a cat feeling?</b></p>
+        <form>
+            <label for="loving">
             <input id="loving" type="checkbox" name="personallity" checked>Loving
         </label>
         <label for="lazy">
@@ -51,10 +54,13 @@
             <input id="crazy" type="checkbox" name="personallity">Crazy
         </label>
     </form>
+</div>
+   <div>
     <form>
         <input type="text" placeholder="do you have a cat?" required>
         <button type="submit">Submit</button>
     </form>
+   </div> 
    </main>
 
 </body>
