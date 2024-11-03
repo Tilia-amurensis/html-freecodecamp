@@ -30,7 +30,7 @@
         <li>Dogs</li>
         <li>People (sometimes)</li>
     </ol>
-    <p>Where is a cat live?</p>
+    <p><b>Where is a cat live?</b></p>
 <form>
     <label for="indoor">
         <input id="indoor" type="radio" name="indoor-outdoor">Indoor
@@ -39,10 +39,10 @@
         <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
     </label>
     </form>
-    <p>How is the cat feeling?</p>
+    <p><b>How is a cat feeling?</b></p>
     <form>
         <label for="loving">
-            <input id="loving" type="checkbox" name="personallity">Loving
+            <input id="loving" type="checkbox" name="personallity" checked>Loving
         </label>
         <label for="lazy">
             <input id="lazy" type="checkbox" name="personallity">Lazy
@@ -51,10 +51,11 @@
             <input id="crazy" type="checkbox" name="personallity">Crazy
         </label>
     </form>
-    <input type="text" placeholder="do you have a cat?" required>
-    <button type="submit">Submit</button>
-
-    </main>
+    <form>
+        <input type="text" placeholder="do you have a cat?" required>
+        <button type="submit">Submit</button>
+    </form>
+   </main>
 
 </body>
 </html>
