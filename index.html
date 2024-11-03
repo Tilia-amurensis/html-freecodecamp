@@ -31,8 +31,8 @@
             <li>Sleeping</li>
         </ul>
         <figure>
-            <img src="img/cat5.jpg" alt="little cat is sleeping" title="sleeping cat">
-            <figcaption>Cats<em>love</em>sleeping</figcaption>
+            <img src="img/cat6.jpg" alt="little cat is sleeping" title="sleeping cat">
+            <figcaption>Cats <em>love</em> sleeping</figcaption>
         </figure>
         
     </section>
@@ -43,22 +43,38 @@
             <li>Dogs</li>
             <li>People (sometimes)</li>
         </ol> 
+        <figure>
+            <img src="img/catdog.jpg" alt="cat is playing with dog"  title="cat and dog">
+            <figcaption>Cats <strong>hate</strong> dogs</figcaption>
+        </figure>
     </section>
         
    
-    <div>
-    <p><b>Where is a cat live?</b></p>
-    <form>
-        <label for="indoor">
-            <input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor
+   <section>
+    <h2>Cat form</h2>
+    <form action="https://tilia-amurensis.github.io/html-website/">
+        <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>  
+            <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor
         </label>
         <label for="outdoor">
-            <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+            <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor
         </label>
-        </form>
-    </div> 
+    </fieldset>
+    <input type="text" placeholder="Do you have a cat?" required>
+    <input type="submit" value="Submit">
+    <!--<button type="submit>Submit</button>"-->
+
     
-    <div>
+    </form>
+   </section>
+    <p><b>Where is a cat live?</b></p>
+    <form>
+        
+    
+    
+   
         <p><b>How is a cat feeling?</b></p>
         <form>
             <label for="loving">
@@ -70,19 +86,12 @@
         <label for="crazy">
             <input id="crazy" type="checkbox" name="personallity">Crazy
         </label>
-    </form>
-</div>
-   <div>
+
     
-    <img src="img/cat2.jpg" alt="white cat" width="500" height="400" title="angry cat">
-   </div>
-<div>
-    <form action="">
-        <input type="text" placeholder="Do you have a cat?" required>
-        <button type="submit">Submit</button>
-    </form>
-   </div> 
-   </main>
+    
+  
+   
+     
 
 </body>
 </html>
